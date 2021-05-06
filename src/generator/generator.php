@@ -12,9 +12,9 @@ function env($envName, $default = null)
 }
 
 $config = [
-    'quranJsonDir' => 'https://github.com/administrasinet/quran-json',
-    'baseUrl' => 'https://gallant-shirley-c64883.netlify.app/',
-    'baseMurottalUrl' => 'https://gallant-shirley-c64883.netlify.app/murrotal',
+    'quranJsonDir' => '../quran-json',
+    'baseUrl' => 'https://administrasi.net/quran',
+    'baseMurottalUrl' => 'https://quran.administrasi.net/murottal',
     'buildDir' => BASE_DIR . '/build',
     'publicDir' => BASE_DIR . '/src/public',
     'templateDir' => env('QURAN_TEMPLATE_DIR', BASE_DIR . '/src/generator/template'),
