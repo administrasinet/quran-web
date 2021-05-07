@@ -12,7 +12,7 @@ function env($envName, $default = null)
 }
 
 $config = [
-    'quranJsonDir' => BASE_DIR . '/qurann/quran-json',
+    'quranJsonDir' => 'https://github.com/administrasinet/quran-json/tree/f98ab74f4b4f7f9f0b300a9fe05cad89a77759cd',
     'baseUrl' => 'https://administrasi.net/quran',
     'baseMurottalUrl' => 'https://administrasi.net/quran/murottal',
     'buildDir' => BASE_DIR . '/build',
